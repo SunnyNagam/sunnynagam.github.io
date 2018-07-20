@@ -21,7 +21,7 @@
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
 
   </head>
 
@@ -31,7 +31,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Sunny Nagam</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded shadow mx-auto mb-3" src="img/profile.jpg" alt="">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,6 +52,9 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
           <li class="nav-item">
@@ -65,8 +68,8 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div class="my-auto">
-          <h1 class="mb-0">Sunny
-            <span class="text-primary">Nagam</span>
+          <h1 class="mb-15">
+            Sunny    <span class="text-primary">Nagam</span>
           </h1>
           <div class="subheading mb-5">Calgary, Alberta · (587) 703-5579 ·
             <a href="mailto:sunnynagam1@gmail.com">sunnynagam1@gmail.com</a>
@@ -84,7 +87,7 @@
             </li>
             -->
             <li class="list-inline-item">
-              <a href="ResumeSmall.pdf" target="_blank">
+              <a href="docs/ResumeSmall.pdf" target="_blank">
                 <span class="fa-stack fa-lg">
                   <i class="fa fa-circle fa-stack-2x"></i>
                   <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
@@ -193,7 +196,7 @@
             <li class="list-inline-item">
               <i>
                 <i class="fa fa-sitemap"></i>
-                <i class="devicons">Tensorflow</i>
+                <i class="devicons">TensorFlow</i>
               </i>
             </li>
             <li class="list-inline-item">
@@ -206,7 +209,7 @@
               <i class="devicons devicons-github">Github</i>
             </li>
           </ul>
-          <!--
+          <!-- 
           <div class="subheading mb-3">Workflow</div>
             <ul class="fa-ul mb-0">
               <li>
@@ -262,6 +265,45 @@
           
       </section>
 
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Gravity Dash</h3>
+              <div class="subheading mb-2">Unity3D, C#</div>
+              <p>2D puzzle game for iOS and Android with pyhsics engine and GUI programmed in C#.</p>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5 ">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Twitter Joke Bot</h3>
+              <div class="subheading mb-2">Python, WebAPIs</div>
+              <p>Python script that integrates Twitter and Reddit API to parse user submitted jokes on reddit and submit them to twitter once a day.</p>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">3D Pool</h3>
+              <div class="subheading mb-2">Java</div>
+              <p>3D desktop game with graphics and physics programmed in Java.</p>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Neural Digit Reader</h3>
+              <div class="subheading mb-2">Java</div>
+              <p>Convolutional Neural Network which recognizes and identifies handwritten digits, GUI and network programmed in Java.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
@@ -280,7 +322,7 @@
               place in Synopsys Calgary Collegiate Programming Contest</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
+              3<sup>rd</sup>
               place in University of Calgary's Competitive Programming club leaderboard</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
