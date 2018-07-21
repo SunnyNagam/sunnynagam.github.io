@@ -85,6 +85,10 @@ h2 {
     max-height: 13rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+  #projects .img-project {
+    width: 70%;
+    border: 0.5rem solid rgba(189, 93, 56, 1);
+  }
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
